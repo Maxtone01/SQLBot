@@ -4,7 +4,7 @@ import random as r
 import time
 from telebot import types
 
-bot = telebot.TeleBot('1096004990:AAFiiaXeTuYYdB7aPJQsNuLSheQBF3OQCzk')
+bot = telebot.TeleBot('')
 db = sqlite3.connect('Telegram.db', check_same_thread=False)
 cursor = db.cursor()
 
